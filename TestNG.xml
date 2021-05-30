@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+  
+<suite name="HCM Tests" >
+<listeners>
+	  	<listener class-name="Utilities.ReporterListenerClass" /> 
+	</listeners>
+	
+  <test name="U.S Payroll Programs under Test " > 
+  <parameter name="browser" value="chrome"></parameter> 
+  <parameter name="environment" value="testr12"></parameter>
+  
+    <classes>
+   	<!--	<class name="TestClasses.TC2_TimesheetEntryTest" />     
+  			<class name="TestClasses.TC4_EmployeeHistoryTest" />  
+        	<class name="TestClasses.TC3_EmployeeProfileTest" />	
+        	<class name="TestClasses.TC6_TimesheetPostingTest" />     
+        	<class name="TestClasses.TC5_DirectDepositTest" />  	
+        	<class name="TestClasses.TC7_CheckProcessing" />	
+        	<class name="TestClasses.TC8_PayrollProcessing" />	
+        	<class name="TestClasses.TC9_CheckPrinting" />	
+        	<class name="TestClasses.TC10_CheckVoiding" />	
+        	<class name="TestClasses.TC11_PayrollPostingTest" /> -->
+        	<class name="TestClasses.TC3_EmployeeProfileTest" /> 
+    </classes>
+  </test>    
+ 
+  </suite>
